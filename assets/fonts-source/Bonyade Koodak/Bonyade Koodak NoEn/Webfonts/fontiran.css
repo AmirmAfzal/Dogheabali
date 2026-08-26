@@ -1,0 +1,83 @@
+/**
+*
+*	Name:			Bonyade Koodak Fonts
+*	Version:			2.0
+*	Author:			Mahdi Ershadi and Reza Bakhtiarifard
+*	Created on:		August 2023
+*	Updated on:		August 2023
+*	Vendor:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت بنیاد کودک یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+Bonyade Koodak NoEn fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- fonts/-
+*	
+**/
+
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: 100;
+	src: url('woff/BonyadeKoodakNoEn-Thin.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-Thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: 200;
+	src: url('woff/BonyadeKoodakNoEn-ExtraLight.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-ExtraLight.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: 300;
+	src: url('woff/BonyadeKoodakNoEn-Light.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-Light.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: normal;
+	src: url('woff/BonyadeKoodakNoEn-Regular.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-Regular.woff2') format('woff2');		 	 
+}
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: 500;
+	src: url('woff/BonyadeKoodakNoEn-Medium.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-Medium.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: bold;
+	src: url('woff/BonyadeKoodakNoEn-Bold.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: 800;
+	src: url('woff/BonyadeKoodakNoEn-ExtraBold.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-ExtraBold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: Bonyade Koodak NoEn;
+	font-style: normal;
+	font-weight: 900;
+	src: url('woff/BonyadeKoodakNoEn-Black.woff') format('woff'),   
+	url('woff2/BonyadeKoodakNoEn-Black.woff2') format('woff2');		 
+}

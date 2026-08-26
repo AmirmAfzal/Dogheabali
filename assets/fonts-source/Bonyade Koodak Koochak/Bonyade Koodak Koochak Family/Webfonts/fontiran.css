@@ -1,0 +1,83 @@
+/**
+*
+*	Name:			Bonyade Koodak Fonts
+*	Version:			2.0
+*	Author:			Mahdi Ershadi and Reza Bakhtiarifard
+*	Created on:		August 2023
+*	Updated on:		August 2023
+*	Vendor:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت بنیاد کودک یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+Bonyade Koodak Koochak fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- fonts/-
+*	
+**/
+
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: 100;
+	src: url('woff/BonyadeKoodakKoochak-Thin.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-Thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: 200;
+	src: url('woff/BonyadeKoodakKoochak-ExtraLight.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-ExtraLight.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: 300;
+	src: url('woff/BonyadeKoodakKoochak-Light.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-Light.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: normal;
+	src: url('woff/BonyadeKoodakKoochak-Regular.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-Regular.woff2') format('woff2');		 	 
+}
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: 500;
+	src: url('woff/BonyadeKoodakKoochak-Medium.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-Medium.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: bold;
+	src: url('woff/BonyadeKoodakKoochak-Bold.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: 800;
+	src: url('woff/BonyadeKoodakKoochak-ExtraBold.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-ExtraBold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: Bonyade Koodak Koochak;
+	font-style: normal;
+	font-weight: 900;
+	src: url('woff/BonyadeKoodakKoochak-Black.woff') format('woff'),   
+	url('woff2/BonyadeKoodakKoochak-Black.woff2') format('woff2');		 
+}
