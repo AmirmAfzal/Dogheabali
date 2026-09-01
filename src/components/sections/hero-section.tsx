@@ -54,7 +54,7 @@ export function HeroSection() {
               family (left) / glass (center) / can (right) arrangement */}
           <div className="absolute z-10 top-1/6 left-1/4 size-[411px] rounded-full bg-white opacity-[0.39] blur-[320px]" />
           <div className="w-full z-20 flex flex-col items-center justify-center gap-10 sm:flex-row sm:items-end sm:gap-4 lg:gap-8">
-            <div className="flex flex-row items-center absolute -right-20 top-1/2 -translate-y-1/2">
+            <div className="hidden sm:flex flex-row items-center absolute -right-20 top-1/2 -translate-y-1/2">
               <Image
                 src="/images/group-840-3.png"
                 alt="دوغ آبعلی قوطی ۳۳۰ میلی لیتر"
@@ -82,7 +82,7 @@ export function HeroSection() {
               unoptimized
               className={`h-[220px] w-auto sm:h-[300px] lg:h-[750px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 drop-shadow-[0_25px_25px_rgba(0,0,0,0.15)]`}
             />
-            <div className="flex flex-row items-center absolute -left-20 top-1/2  -translate-y-1/2">
+            <div className="hidden sm:flex flex-row items-center absolute -left-20 top-1/2  -translate-y-1/2">
               <LabelPill
                 pillSrc="/images/label-pill-icon-right.svg"
                 label="خانواده"
