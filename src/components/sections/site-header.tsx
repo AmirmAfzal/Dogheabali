@@ -29,7 +29,7 @@ export function SiteHeader() {
   return (
     <header
       id="top"
-      className="fixed inset-x-0 top-4 z-50 mx-auto flex container  flex-col "
+      className="fixed inset-x-0 top-4 z-50 mx-auto flex container  flex-col p-2 lg:p-0"
     >
       <div className="relative rounded-3xl bg-white shadow-[0_10px_30px_-15px_rgba(14,14,14,0.35)]">
         <div className="relative flex h-[72px] items-center justify-between px-4 sm:h-[88px] sm:px-6">
@@ -109,7 +109,7 @@ export function SiteHeader() {
 
         {/* desktop nav pill, overlapping the bottom edge of the white bar */}
       </div>
-      <nav className=" w-full lg:flex px-6">
+      <nav className=" w-full lg:flex px-6 hidden">
         <ul className="w-full flex justify-center items-center gap-10 rounded-b-[28px] bg-brand-dark px-10 py-4 text-lg font-bold text-white">
           {NAV_LINKS.map((link) => (
             <li key={link.href}>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden rounded-b-[80px] bg-brand pt-32 pb-16 sm:pt-64">
+    <section className="relative overflow-hidden rounded-b-[80px] bg-brand pt-32 lg:pb-16 sm:pt-64">
       {/* decorative glow — exact positions/opacity/blur pulled from the source file;
           this is what gives the hero its gradient-like depth over the flat solid fill */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -11,7 +11,7 @@ export function HeroSection() {
         <div className="absolute top-[735px] left-[375px] size-[411px] rounded-full bg-white opacity-[0.39] blur-[320px]" />
       </div>
 
-      <div className="relative mx-auto flex max-w-5xl flex-col items-center px-4 text-center">
+      <div className="mt-8 lg:mt-0 relative mx-auto flex max-w-5xl flex-col items-center px-4 text-center">
         <div className="mb-6 flex flex-row-reverse items-center gap-2 rounded-lg bg-white/[0.18] px-5 py-3 text-lg font-medium text-white backdrop-blur-[3.5px] sm:text-2xl">
           <Image
             src="/images/jug-icon.png"
@@ -23,11 +23,11 @@ export function HeroSection() {
           با آبعلی خاطره هات رو به یادماندنی کن
         </div>
 
-        <h1 className="text-5xl leading-[1.1] font-black text-white sm:text-7xl lg:text-[120px]">
+        <h1 className="text-6xl leading-[1.1] font-black text-white sm:text-7xl lg:text-[120px]">
           دوغـت رو بنــــوش!
         </h1>
 
-        <div className="mt-6 flex items-center gap-3 pl-64 text-lg font-medium text-white sm:text-2xl">
+        <div className="mt-6 flex items-center gap-3 pl-36 lg:pl-64 text-lg font-medium text-white sm:text-2xl">
           <span>از اینجا بازش کن!</span>
           <Image
             src="/images/hero-pointer-arrow.svg"
@@ -42,7 +42,7 @@ export function HeroSection() {
       {/* products on the yellow platform */}
       <div className="relative mx-auto mt-16 container">
         <div
-          className="w-full relative overflow-visible rounded-[48px] h-96 my-48 bg-brand-yellow/95 py-16 shadow-[inset_0_0_0_1px_rgba(0,0,0,0.03)] sm:rounded-[61px] sm:py-20"
+          className="w-full relative overflow-visible rounded-[48px] h-52 lg:h-96 my-48 bg-brand-yellow/95 py-16 shadow-[inset_0_0_0_1px_rgba(0,0,0,0.03)] sm:rounded-[61px] sm:py-20"
           style={{
             backgroundImage: "url('/images/yellow background.svg')",
             backgroundSize: "cover",
@@ -80,7 +80,7 @@ export function HeroSection() {
               height={1500}
               priority
               unoptimized
-              className={`h-[220px] w-auto sm:h-[300px] lg:h-[750px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 drop-shadow-[0_25px_25px_rgba(0,0,0,0.15)]`}
+              className={`h-[600px] w-auto sm:h-[300px] lg:h-[750px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 drop-shadow-[0_25px_25px_rgba(0,0,0,0.15)]`}
             />
             <div className="hidden sm:flex flex-row items-center absolute -left-20 top-1/2  -translate-y-1/2">
               <LabelPill

@@ -96,7 +96,7 @@ export function FeaturesSection() {
               alt={slide.title}
               width={slide.imageWidth}
               height={slide.imageHeight}
-              className={`relative ${slide.clipBottom ? "h-[520px] absolute bottom-0 left-1/2 -translate-x-1/2 w-auto " : "h-[520px] w-auto"} animate-in fade-in zoom-in-95 duration-500 `}
+              className={`relative object-cover ${slide.clipBottom ? "h-[520px] absolute bottom-0 left-1/2 -translate-x-1/2 w-auto " : "h-[520px] w-auto"} animate-in fade-in zoom-in-95 duration-500 `}
               priority
               unoptimized
             />
