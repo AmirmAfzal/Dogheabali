@@ -44,7 +44,7 @@ export function HeroSection() {
         <div
           className="w-full relative overflow-visible rounded-[48px] h-52 lg:h-96 my-48 bg-brand-yellow/95 py-16 shadow-[inset_0_0_0_1px_rgba(0,0,0,0.03)] sm:rounded-[61px] sm:py-20"
           style={{
-            backgroundImage: "url('/images/yellow background.svg')",
+            backgroundImage: "url('/images/yellow-background.svg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

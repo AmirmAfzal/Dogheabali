@@ -23,6 +23,12 @@
 # misc
 .DS_Store
 *.pem
+.vscode/
+.idea/
+
+# font source kit (commercial, not for redistribution — only the shipped
+# src/fonts/*.woff2 is licensed for web use)
+/assets/fonts-source
 
 # debug
 npm-debug.log*
